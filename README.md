@@ -1,6 +1,6 @@
 # One Week Review with CEO
 
-This repo contains everything you need to complete your one-week intern evaluation task. Read this README first, then follow the instructions in the task allocation PDF.
+This repo contains everything you need to complete your one-week intern task when working with CEO. Read this README first, then follow the instructions in the task allocation PDF.
 
 ## Repo Structure
 
