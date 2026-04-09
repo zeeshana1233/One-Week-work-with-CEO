@@ -1,3 +1,63 @@
+# One Week Review with CEO
+
+This repo contains everything you need to complete your one-week intern evaluation task. Read this README first, then follow the instructions in the task allocation PDF.
+
+## Repo Structure
+
+```
+.
+├── discord-bot/          # Upwork Discord Bot — fetches job listings from Upwork
+├── electron-app/         # Upwork Electron App — frontend for campaign management
+├── Intern_Task_Allocation.pdf   # Your task document (start here)
+└── README.md
+```
+
+## What's Inside
+
+### 1. Discord Bot (`discord-bot/`)
+The Upwork Discord Bot that scrapes and fetches job listings from Upwork based on search queries. This bot is used inside the Electron App to power the job listing functionality when a campaign runs.
+
+### 2. Electron App (`electron-app/`)
+The frontend desktop application built with Electron (JavaScript). This is where campaigns are created and managed. When a campaign runs, the Discord Bot fetches jobs, and the Upwork SEO Board (Python) processes them through a ChatGPT viability check.
+
+### 3. Task Allocation PDF (`Intern_Task_Allocation.pdf`)
+Your complete task document containing:
+- Project overview (what the existing codebase does)
+- Loom video links (watch ALL of them)
+- Module 1 to-do list (Upwork SEO Bot tasks)
+- Module 2 to-do list (Listing Website tasks)
+- Deliverables
+- FAQs
+- First meeting agenda
+
+## Getting Started
+
+1. **Read the PDF first** — Open `Intern_Task_Allocation.pdf` and read it cover to cover
+2. **Watch all Loom videos** — Links are in the PDF under Resources & Reference Links
+3. **Explore the codebase** — Look through `discord-bot/` and `electron-app/` to understand the existing code
+4. **Prepare your questions** — Write down anything unclear before the first meeting
+5. **Meeting** — You will explain the project back to the CEO. The 1-week deadline starts from this meeting.
+
+## Tech Stack
+
+- **Electron App**: JavaScript
+- **Discord Bot**: JavaScript
+- **Upwork SEO Board**: Python
+- **Database**: MongoDB (currently) — your task is to migrate to PostgreSQL
+
+## Important Rules
+
+- **Do NOT** start from scratch or introduce a new tech stack — build on top of what exists
+- **Do NOT** touch any modules outside of what is assigned in the PDF
+- **Do NOT** wait until the deadline to ask questions — ask early
+- Your scope is ONLY the live Upwork query module and the listing website
+
+## Questions?
+
+Re-watch the Loom videos first. If still stuck, document your specific question (what you tried, what error you got, what you expected) and reach out. Vague messages like "it's not working" will not get a response.
+
+---
+
 # 🚀 AI Automation Dashboard
 
 <div align="center">
