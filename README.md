@@ -6,19 +6,19 @@ This repo contains everything you need to complete your one-week intern evaluati
 
 ```
 .
-├── discord-bot/          # Upwork Discord Bot — fetches job listings from Upwork
-├── electron-app/         # Upwork Electron App — frontend for campaign management
-├── Intern_Task_Allocation.pdf   # Your task document (start here)
+├── discord-bot/               # 🤖 Job Hunter Bot — live Upwork scraper powering all campaigns
+├── electron-app/              # ⚡ Main App (START HERE) — the full desktop platform you'll be working in
+├── Intern_Task_Allocation.pdf # 📋 Your Mission Brief — read this before touching any code
 └── README.md
 ```
 
 ## What's Inside
 
-### 1. Discord Bot (`discord-bot/`)
-The Upwork Discord Bot that scrapes and fetches job listings from Upwork based on search queries. This bot is used inside the Electron App to power the job listing functionality when a campaign runs.
+### 1. 🤖 Job Hunter Bot (`discord-bot/`)
+The live Upwork scraper that hunts and fetches real job listings based on search queries — in real time. This is the engine behind every campaign run. When a campaign fires, this bot is what goes out and grabs the jobs. Without it, the app has no data.
 
-### 2. Electron App (`electron-app/`)
-The frontend desktop application built with Electron (JavaScript). This is where campaigns are created and managed. When a campaign runs, the Discord Bot fetches jobs, and the Upwork SEO Board (Python) processes them through a ChatGPT viability check.
+### 2. ⚡ Main App — The Core Platform (`electron-app/`)
+**This is the main codebase you'll be working in.** A full-featured desktop application built with Electron (JavaScript) that ties everything together — campaign creation, job filtering, ChatGPT viability checks, and the Upwork SEO Board. This is where the product lives.
 
 ### 3. Task Allocation PDF (`Intern_Task_Allocation.pdf`)
 Your complete task document containing:
